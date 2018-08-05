@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>DatabaseManager</Name>
+    <Name>EBunnyShop.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{6696aed0-016e-4b3c-b8e6-065be69091fd}</ProjectGuid>
@@ -57,5 +57,32 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Migrations" />
+    <Folder Include="Migrations\Table" />
+    <Folder Include="Migrations\Procedure" />
+    <Folder Include="Post-Deloyment" />
+    <Folder Include="Pre-Deloyment" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Migrations\Table\ProductCategories.sql" />
+    <Build Include="Migrations\Table\Products.sql" />
+    <Build Include="Migrations\Table\PostCategories.sql" />
+    <Build Include="Migrations\Table\Posts.sql" />
+    <Build Include="Migrations\Table\Tags.sql" />
+    <Build Include="Migrations\Table\ProductTags.sql" />
+    <Build Include="Migrations\Table\PostTags.sql" />
+    <Build Include="Migrations\Table\Orders.sql" />
+    <Build Include="Migrations\Table\OrderDetails.sql" />
+    <Build Include="Migrations\Table\Menus.sql" />
+    <Build Include="Migrations\Table\MenuGroups.sql" />
+    <Build Include="Migrations\Table\Slides.sql" />
+    <Build Include="Migrations\Table\Footers.sql" />
+    <Build Include="Migrations\Table\Pages.sql" />
+    <Build Include="Migrations\Table\SupportOnlines.sql" />
+    <Build Include="Migrations\Table\SystemConfigs.sql" />
+    <Build Include="Migrations\Table\VisitorStatistics.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="EBunnyShop.Database.refactorlog" />
   </ItemGroup>
 </Project>
