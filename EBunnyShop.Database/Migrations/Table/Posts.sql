@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Posts]
 (
-		[ID] INT NOT NULL,
+	[ID] INT NOT NULL,
 	[Name] NVARCHAR(250) NOT null,
 	[Alias] NVARCHAR(250) NOT null,
     [CategoryID] INT NULL,
