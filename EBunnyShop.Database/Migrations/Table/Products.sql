@@ -5,7 +5,7 @@
 	[Alias] NVARCHAR(250) NOT null,
     [CategoryID] INT NULL,
     [Image] NVARCHAR(500) NULL, 
-	[MoreImage] NVARCHAR(500) NULL,
+	[MoreImage] XML NULL,
 	[Price] DECIMAL(18, 2),
 	[Promotion] DECIMAL(18, 2),
 	[Warranty] INT,
