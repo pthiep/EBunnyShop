@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Tags]
+(
+	[ID] VARCHAR(50) NOT NULL,
+	[Name] NVARCHAR(50) NULL,
+	[Type] VARCHAR(50) NULL, 
+    CONSTRAINT [PK_Tags] PRIMARY KEY ([ID])
+)
