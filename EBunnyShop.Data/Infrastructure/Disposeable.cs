@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EBunnyShop.Data.Infrastructure
 {
-    public class Disposeable : IDisposable
+    public class Disposable : IDisposable
     {
         private bool isDisposed;
 
