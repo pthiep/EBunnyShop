@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace EBunnyShop.Data.Infrastructure
 {
-    public interface IDbFactory : IDisposable
+    class RepositoryBase
     {
-        EBunnyShopDbContext Init();
     }
 }
