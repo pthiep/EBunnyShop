@@ -47,12 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EBunnyShopDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EBunnyShopDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="EBunnyShopDbContext.cs" />
+    <Compile Include="Infrastructure\Disposeable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />
     <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
@@ -64,6 +60,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EBunnuShop.Model\EBunnuShop.Model.csproj">
+      <Project>{2E95D0E4-BEDB-4CC3-B281-6AF0C90F4876}</Project>
+      <Name>EBunnuShop.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EBunnyShop.Common\EBunnyShop.Common.csproj">
       <Project>{eb087628-a2a3-44cf-8aa0-f6ff981c3556}</Project>
       <Name>EBunnyShop.Common</Name>
@@ -74,17 +74,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="EBunnyShopDataSet.xsc">
-      <DependentUpon>EBunnyShopDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="EBunnyShopDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>EBunnyShopDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="EBunnyShopDataSet.xss">
-      <DependentUpon>EBunnyShopDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
