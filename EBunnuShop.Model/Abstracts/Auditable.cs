@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBunnuShop.Model.Abstracts
+namespace EBunnyShop.Model.Abstracts
 {
     public abstract class Auditable : IAuditable
     {

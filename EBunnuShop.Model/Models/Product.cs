@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
-using EBunnuShop.Model.Abstracts;
+using EBunnyShop.Model.Abstracts;
 
-namespace EBunnuShop.Model.Models
+namespace EBunnyShop.Model.Models
 {
     public class Product : Auditable
     {

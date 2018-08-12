@@ -1,9 +1,9 @@
-﻿using EBunnuShop.Model.Abstracts;
+﻿using EBunnyShop.Model.Abstracts;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EBunnuShop.Model.Models
+namespace EBunnyShop.Model.Models
 {
     public class ProductCategory : Auditable
     {
