@@ -8,5 +8,7 @@ namespace EBunnyShop.Data.Infrastructure
 {
     public interface IDbFactory : IDisposable
     {
+        EBunnyShopDbContext Init();
+
     }
 }
