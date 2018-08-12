@@ -85,4 +85,7 @@
   <ItemGroup>
     <RefactorLog Include="EBunnyShop.Database.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="EBunnyShop.Database.publish.xml" />
+  </ItemGroup>
 </Project>
