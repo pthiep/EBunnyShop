@@ -249,9 +249,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EBunnuShop.Model\EBunnuShop.Model.csproj">
+    <ProjectReference Include="..\EBunnuShop.Model\EBunnyShop.Model.csproj">
       <Project>{2e95d0e4-bedb-4cc3-b281-6af0c90f4876}</Project>
-      <Name>EBunnuShop.Model</Name>
+      <Name>EBunnyShop.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\EBunnyShop.Common\EBunnyShop.Common.csproj">
       <Project>{eb087628-a2a3-44cf-8aa0-f6ff981c3556}</Project>

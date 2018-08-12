@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBunnyShop.Common", "EBunnyShop.Common\EBunnyShop.Common.csproj", "{EB087628-A2A3-44CF-8AA0-F6FF981C3556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBunnuShop.Model", "EBunnuShop.Model\EBunnuShop.Model.csproj", "{2E95D0E4-BEDB-4CC3-B281-6AF0C90F4876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBunnyShop.Model", "EBunnuShop.Model\EBunnyShop.Model.csproj", "{2E95D0E4-BEDB-4CC3-B281-6AF0C90F4876}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBunnyShop.Data", "EBunnyShop.Data\EBunnyShop.Data.csproj", "{CE1CFD3D-ACCD-4659-B0FC-BECBD384D122}"
 EndProject

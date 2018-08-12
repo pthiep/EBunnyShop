@@ -1,4 +1,4 @@
-﻿using EBunnuShop.Model.Models;
+﻿using EBunnyShop.Model.Models;
 using System.Data.Entity;
 
 namespace EBunnyShop.Data
