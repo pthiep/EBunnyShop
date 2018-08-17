@@ -13,7 +13,7 @@ namespace EBunnyShop.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201808131618315_InitDB"; }
+            get { return "201808171643275_InitDB"; }
         }
         
         string IMigrationMetadata.Source
