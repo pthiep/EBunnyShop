@@ -1,10 +1,7 @@
-﻿using EBunnyShop.Model.Models;
-using EBunnyShop.Data.Infrastructure;
-using System;
+﻿using EBunnyShop.Data.Infrastructure;
+using EBunnyShop.Model.Models;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EBunnyShop.Data.Repositories
 {
