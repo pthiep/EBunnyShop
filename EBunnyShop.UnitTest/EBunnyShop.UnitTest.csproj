@@ -89,10 +89,6 @@
       <Project>{213f2b14-7754-42df-816c-92ea5ae25a8a}</Project>
       <Name>EBunnyShop.Service</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EBunnyShop.Web\EBunnyShop.Web.csproj">
-      <Project>{5a7deca9-9d34-4237-820b-dc5398f248fa}</Project>
-      <Name>EBunnyShop.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
