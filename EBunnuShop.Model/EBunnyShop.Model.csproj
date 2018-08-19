@@ -7,8 +7,8 @@
     <ProjectGuid>{2E95D0E4-BEDB-4CC3-B281-6AF0C90F4876}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EBunnuShop.Model</RootNamespace>
-    <AssemblyName>EBunnuShop.Model</AssemblyName>
+    <RootNamespace>EBunnyShop.Model</RootNamespace>
+    <AssemblyName>EBunnyShop.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Abstracts\Auditable.cs" />
     <Compile Include="Abstracts\IAuditable.cs" />
+    <Compile Include="Models\Error.cs" />
     <Compile Include="Models\Footer.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuGroup.cs" />

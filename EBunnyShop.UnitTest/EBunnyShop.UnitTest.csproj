@@ -63,8 +63,8 @@
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -88,10 +88,6 @@
     <ProjectReference Include="..\EBunnyShop.Service\EBunnyShop.Service.csproj">
       <Project>{213f2b14-7754-42df-816c-92ea5ae25a8a}</Project>
       <Name>EBunnyShop.Service</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EBunnyShop.Web\EBunnyShop.Web.csproj">
-      <Project>{5a7deca9-9d34-4237-820b-dc5398f248fa}</Project>
-      <Name>EBunnyShop.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,7 @@ namespace EBunnyShop.Model.Models
         [MaxLength(500)]
         public string Description { set; get; }
         public int? ParentID { set; get; }
-        public int? DisplayOrder { set; get; }
+        public int? DislayOrder { set; get; }
         [MaxLength(256)]
         public string Image { set; get; }
         public bool? HomeFlag { set; get; }

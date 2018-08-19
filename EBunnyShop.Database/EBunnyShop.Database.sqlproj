@@ -81,6 +81,7 @@
     <Build Include="Migrations\Table\SupportOnlines.sql" />
     <Build Include="Migrations\Table\SystemConfigs.sql" />
     <Build Include="Migrations\Table\VisitorStatistics.sql" />
+    <Build Include="Migrations\Table\Error.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="EBunnyShop.Database.refactorlog" />
