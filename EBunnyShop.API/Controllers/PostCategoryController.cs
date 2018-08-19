@@ -1,6 +1,10 @@
-﻿using EBunnyShop.API.Infrastructure.Core;
+﻿using AutoMapper;
+using EBunnyShop.API.Infrastructure.Core;
+using EBunnyShop.API.Models;
 using EBunnyShop.Service;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
@@ -26,10 +30,10 @@ namespace EBunnyShop.API.Controllers
             {
                 var listCategory = _postCategoryService.GetAll().ToList();
 
-                //var listPostCategoryVm = Mapper.Map<List<PostCategoryViewModel>>(listCategory);
+                var listPostCategoryVm = Mapper.Map<List<PostCategoryViewModel>>(listCategory);
 
-                //HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listPostCategoryVm);
-                HttpResponseMessage response = null;
+                HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listPostCategoryVm);
+                
                 return response;
             });
         }
