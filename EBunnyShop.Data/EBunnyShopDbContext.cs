@@ -1,9 +1,10 @@
 ﻿using EBunnyShop.Model.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
 
 namespace EBunnyShop.Data
 {
-    public class EBunnyShopDbContext : DbContext
+    public class EBunnyShopDbContext : IdentityDbContext<ApplicationUser>
     {
         public EBunnyShopDbContext() : base("EBunnyShopConnection")
         {
@@ -15,9 +16,17 @@ namespace EBunnyShop.Data
         public DbSet<Post> Posts { set; get; }
         public DbSet<PostTag> PostTags { set; get; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        public static EBunnyShopDbContext Create()
         {
-            base.OnModelCreating(modelBuilder);
+            return new EBunnyShopDbContext();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder builder)
+        {
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId }).ToTable("ApplicationUserRoles");
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId).ToTable("ApplicationUserLogins");
+            builder.Entity<IdentityRole>().ToTable("ApplicationRoles");
+            builder.Entity<IdentityUserClaim>().HasKey(i => i.UserId).ToTable("ApplicationUserClaims");
         }
     }
 }
