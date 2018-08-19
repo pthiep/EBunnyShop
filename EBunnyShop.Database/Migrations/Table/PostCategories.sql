@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[PostCategories]
 (
-	[ID] INT NOT NULL,
+	[ID] INT NOT NULL IDENTITY(1,1),
 	[Name] NVARCHAR(250) NOT null,
 	[Alias] NVARCHAR(250) NOT null, 
 	[Description] NVARCHAR (250) NULL,
